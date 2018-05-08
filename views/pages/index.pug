@@ -1,0 +1,18 @@
+include ../partials/header.pug
+body#home
+  include ../partials/navbar.pug
+  div.parallax-container.overlay.row
+    div.section.no-pad-bot.valign-wrapper
+      div.input-field.col.s12.center
+        form(action='/query/user' method='post')
+          input(type='text' name='name')#autocomplete-input.autocomplete.special
+          label(for='autocomplete-input').special Search for somebody
+
+    div.parallax
+      img(src='/assets/images/static/papuh.png')
+  div.section.white
+    div.row.container
+      div.icon-block
+        h5.center.light.
+          Watson's take on who our influencers really were.  
+  script(src='/assets/js/scripts/init-parallax.js')

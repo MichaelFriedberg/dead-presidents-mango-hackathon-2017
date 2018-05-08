@@ -1,0 +1,27 @@
+h1.header {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 200;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.6);
+}
+
+input.special {
+  color: #fff;
+}
+
+label.special {
+  position: relative;
+}
+
+.serious {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+div.section.no-pad-bot {
+  height: inherit
+}
